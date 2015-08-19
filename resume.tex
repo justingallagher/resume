@@ -4,6 +4,8 @@
 
 \documentclass[]{friggeri-cv}
 
+\usepackage{enumitem}
+
 \newcommand{\starr}{\raisebox{0.2ex}{$\star $}}
 
 \begin{document}
@@ -55,17 +57,87 @@
             {Carnegie Mellon University}
             {Pittsburgh, PA}
             {Bachelor of Science, Computer Science \& Business Administration Minor\\
-            \textbf{GPA}: 3.83/4.00 \ \ \ \textbf{Dean's List}: Fall 2013, Fall 2014, Spring 2015\\}
-        \entry
+            \textbf{GPA}: 3.83/4.00 \ \ \ \textbf{Dean's List}: Fall 2013, Fall 2014, Spring 2015}
+        \entrys
             {2009--2013}
-            {Phillips Exeter Academy}
+            {Phillips Exeter Academy, {\normalfont English Diploma, \emph{cum laude}}}
             {Exeter, NH}
-            {English Diploma, \emph{cum laude}.}
+            {}
     \end{entrylist}
 
     \section{technical experience}
 
+    \begin{entrylist}
+        \entrys
+            {since 2013}
+            {CMU Biorobotics Lab, {\normalfont Researcher for Dr. Howie Choset}}
+            {Pittsburgh, PA}
+            {\begin{itemize}[leftmargin=*]
+                \item[-] Led a team of 3 students in planning and implementing firmware for JumpingBot, a robot which can self-stabilize in freefall.
+                \item[-] Designed and programmed an Android application which allows realtime sensor data to be accessed in MATLAB and ROS.
+            \end{itemize}}
+        \entrys
+            {2015}
+            {Microsoft Corporation, {\normalfont Software Engineer Intern}}
+            {Redmond, WA}
+            {\begin{itemize}[leftmargin=*]
+                \item[-] Designed and implemented a XAML analytics tool which allows hierarchical search of file structure.
+                \item[-] Leveraged telemetry data to actively track application reliability for Windows Phone applications, leading to the discovery of a ship-blocking bug.
+             \end{itemize}}
+        \entrys
+            {2014}
+            {Microsoft Corporation, {\normalfont Explorer Intern}}
+            {Redmond, WA}
+            {\begin{itemize}[leftmargin=*]
+                \item[-] Developed a dashboard for telemetry data, enabling managers to make actionable, data-backed decisions about Microsoft Office Online.
+                \item[-] Worked on a team of 3 interns to create a responsive ASP.NET web application capable of accessing large amounts of SQL data.
+             \end{itemize}}
+    \end{entrylist}
+
     \section{selected projects}
+
+    \begin{entrylist}
+        \entrys
+            {2015}
+            {tunemachine.co, {\normalfont Andreeseen Horowitz Battle of the Hacks 2.0}}
+            {Menlo Park, CA}
+            {\begin{itemize}[leftmargin=*]
+                \item[-] Implemented the backend for a Node.js web application which provides a version control system for Spotify playlists.
+            \end{itemize}}
+        \entrys
+            {2015}
+            {course-api, {\normalfont Scottylabs}}
+            {Pittsburgh, PA}
+            {\begin{itemize}[leftmargin=*]
+                \item[-] Developed a set of Python scripts that provide developers access to CMU course schedules, descriptions, and student evaluations.
+            \end{itemize}}
+        \entrys
+            {2013}
+            {CMUEats, {\normalfont HackCMU}}
+            {Pittsburgh, PA}
+            {\begin{itemize}[leftmargin=*]
+                \item[-] Wrote the backend for a web application that tracks the hours of CMU dining locations using Python, Django, and MongoDB -- later ported to Node.js.
+                \item[-] A year later, the app maintained more than 400 daily hits from students.
+            \end{itemize}}
+    \end{entrylist}
+
     \section{other experience}
+
+    \begin{entrylist}
+        \entrys
+            {since 2014}
+            {Scottylabs}
+            {Pittsburgh, PA}
+            {\begin{itemize}[leftmargin=*]
+                \item[-] Helped to organize and operate Tartanhacks, a hackathon of 350 students from the Pittsburgh area.
+            \end{itemize}}
+        \entrys
+            {2013}
+            {Eagle Scout, {\normalfont Boy Scouts of America}}
+            {Amherst, NH}
+            {\begin{itemize}[leftmargin=*]
+                \item[-] Brainstormed, planned, and executed a service project that supplies used eyeglasses to developing countries. Over the course of the project, I raised more than \$650 and managed 38 volunteers.
+            \end{itemize}}
+    \end{entrylist}
 
 \end{document}
