@@ -1,0 +1,92 @@
+================================================================================
+                               JUSTIN GALLAGHER
+                    COMPUTER SCIENTIST & SOFTWARE ENGINEER
+================================================================================
+
+Education
+---------
+
+CARNEGIE MELLON UNIVERSITY, Pittsburgh PA. Aug 2013 - May 2016
+Bachelor of Science in Computer Science, Minor in Business Administration
+GPA 3.83/4.00    DEAN'S LIST: Fall 2013, Fall 2014, Spring 2015
+
+PHILLIPS EXETER ACADEMY, Exeter NH. Sep 2009 - May 2013
+English Diploma, cum laude
+
+
+Technical Experience
+--------------------
+
+MICROSOFT CORPORATION, Redmond WA. Jun 2015 - Aug 2015
+Software Engineer Intern
+- Designed and implemented an analytics tool which allows hierarchical search of
+  XAML file structure using C# and SQL.
+- Leveraged telemetry data to actively track the reliability of Windows Phone
+  applications, leading to the discovery of a ship-blocking bug.
+
+MICROSOFT CORPORATION, Redmond WA. May 2014 - Aug 2014
+Explorer Intern
+- Developed a dashboard for telemetry data, enabling managers to make
+  actionable, data-backed decisions about Microsoft Office Online features.
+- Worked on a team of 3 interns to create a responsive ASP.NET web application
+  capable of accessing large amounts of SQL data.
+
+CARNEGIE MELLON ROBOTICS INSTITUTE, Pittsburgh PA. Sep 2013 - May 2015
+Student Researcher for Dr. Howie Choset
+- Led a team of 3 students in planning and implementing firmware for JumpingBot,
+  a robot which can self-stabilize in freefall.
+- Designed and programmed an Android application which allows realtime sensor
+  data to be accessed in MATLAB and ROS.
+
+
+Projects
+--------
+
+TUNEMACHINE.CO, Menlo Park CA. Jun 2015
+Andreessen Horowitz Battle of the Hacks 2.0
+- Implemented the backend for a Node.js web application which provides a version
+  control system for Spotify playlists.
+
+COURSE API, Pittsburgh PA. Jan 2015
+ScottyLabs
+- Developed a set of Python scripts that provide developers access to CMU course
+  schedules, descriptions, and student evaluations.
+
+CMUEATS, Pittsburgh PA. Sep 2013
+HackCMU 2013
+- Wrote the backend for a web application that tracks the hours of CMU dining
+  locations using Python, Django, and MongoDB -- later ported to Node.js.
+- A year later, the app maintained more than 400 daily hits from students.
+
+
+Other Experience
+----------------
+
+SCOTTYLABS, Pittsburgh PA. Sep 2014 - present
+Carnegie Mellon University Student Organization
+- Helped to organize and operate Tartanhacks, a hackathon of 350 students from
+  the Pittsburgh area.
+
+EAGLE SCOUT, Amherst NH. Mar 2013
+Boy Scouts of America
+- Brainstormed, planned, and executed a service project that supplies used
+  eyeglasses to developing countries. Over the course of the project, I raised
+  more than $650 and managed 38 volunteers.
+
+
+Skills
+------
+
+PROGRAMMING LANGUAGES    C, C++, C#, Java, Javascript, Python, SQL, SML
+TECHNOLOGIES             Android SDK, Windows SDK, Node.js, ASP.NET, OpenGL
+APPLICATIONS             Git, LaTeX, Vim, Microsoft Office, Visual Studio
+INTERESTS                Firmware development, Applications, Operating Systems
+
+
+Contact
+-------
+
+EMAIL                    me@justingallag.com
+WEBSITE                  http://justingallag.com
+GITHUB                   https://github.com/justingallagher
+LINKEDIN                 https://www.linkedin.com/in/justingallag
