@@ -22,11 +22,11 @@
 \definecolor{lightgray}{HTML}{999999}
 
 \ifdefined\@cv@print
-  \colorlet{gray}{gray}
-  \colorlet{gray}{gray}
-  \colorlet{gray}{gray}
-  \colorlet{gray}{gray}
-  \colorlet{gray}{gray}
+  \colorlet{gray}{black}
+  \colorlet{gray}{black}
+  \colorlet{gray}{black}
+  \colorlet{gray}{black}
+  \colorlet{gray}{black}
   \colorlet{fillheader}{white}
   \colorlet{header}{gray}
 \else
