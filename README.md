@@ -17,3 +17,7 @@ $ git clone https://github.com/justingallagher/resume.git
 $ cd resume
 $ make
 ```
+
+## References
+
+This project uses a modified version of a template created by [Adrian Friggeri](https://github.com/afriggeri). While the original has been removed, you can find my version of the .cls file as well as the original distribution license in the `/template` folder.
