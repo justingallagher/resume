@@ -2,8 +2,11 @@
 % @author Justin Gallagher, me@justingallag.com
 % @since 2015-08-17
 
-\documentclass[]{template/friggeri-cv}
-%\documentclass[print]{template/friggeri-cv}
+\ifdefined\isprint
+    \documentclass[print]{template/friggeri-cv}
+\else
+    \documentclass[]{template/friggeri-cv}
+\fi
 
 \usepackage{enumitem}
 

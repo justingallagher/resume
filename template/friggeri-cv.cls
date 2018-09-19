@@ -17,24 +17,21 @@
 
 \definecolor{white}{RGB}{255,255,255}
 
-\definecolor{darkgray}{HTML}{333333}
+\definecolor{darkgray}{HTML}{404040}
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{lightgray}{HTML}{999999}
 
 \ifdefined\@cv@print
   \colorlet{gray}{black}
-  \colorlet{gray}{black}
-  \colorlet{gray}{black}
-  \colorlet{gray}{black}
-  \colorlet{gray}{black}
+  \colorlet{darkgray}{black}
   \colorlet{fillheader}{white}
-  \colorlet{header}{gray}
+  \colorlet{header}{black}
 \else
   \colorlet{fillheader}{gray}
   \colorlet{header}{white}
 \fi
-\colorlet{textcolor}{gray}
-\colorlet{headercolor}{gray}
+\colorlet{textcolor}{black}
+\colorlet{headercolor}{darkgray}
 
 %%%%%%%%%
 % Fonts %
@@ -67,7 +64,7 @@
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
       \fontsize{40pt}{72pt}\color{header}%
-      {\thinfont #1}{\bodyfont  #2}
+      {\thinfont #1}{\bodyfont #2}
     };
     \node [anchor=north] at (name.south) {%
       \fontsize{14pt}{24pt}\color{header}%
@@ -84,27 +81,10 @@
 %%%%%%%%%%%%%
 \RequirePackage{parskip}
 
-\newcounter{colorCounter}
-\def\@sectioncolor#1#2#3{%
-  {%
-    \color{%
-      \ifcase\value{colorCounter}%
-        gray\or%
-        gray\or%
-        gray\or%
-        gray\or%
-        gray\else%
-        headercolor\fi%
-    } #1#2#3%
-  }%
-  \stepcounter{colorCounter}%
-}
-
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
   {%
-    \LARGE\headingfont\color{headercolor}%
-    \@sectioncolor #1%
+    \LARGE\headingfont\color{headercolor} #1%
   }
   \par\vspace{\parskip}
 }
