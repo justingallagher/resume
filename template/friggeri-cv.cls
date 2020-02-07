@@ -85,7 +85,7 @@
   {%
     \LARGE\headingfont\color{headercolor} #1%
   }
-  \par\vspace{\parskip}
+  \par\vspace{2\parskip}
 }
 
 \renewcommand{\subsection}[2]{
@@ -112,6 +112,8 @@
 \newcommand{\entry}[4]{%
   \parbox[t]{11cm}{%
     \textbf{#2}%
+    \hfill%
+    \vspace{6pt}%
     #4\vspace{\parsep}%
   }&\parbox[t]{4cm}{%
     #1 \\ \vspace{\parsep}%
@@ -128,7 +130,7 @@
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
+    \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}\vspace{6pt}
   }
   \begin{textblock}{3.6}(1.5, 4.33)
   \begin{flushright}
