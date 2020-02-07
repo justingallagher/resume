@@ -108,20 +108,15 @@
   \end{tabular*}
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
+\setlength{\tabcolsep}{12pt}
 \newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{%
+  \parbox[t]{11cm}{%
     \textbf{#2}%
-    \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
     #4\vspace{\parsep}%
-  }\\}
-\newcommand{\entrys}[4]{%
-  #1&\parbox[t]{11.8cm}{%
-    \textbf{#2}%
-    \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}%
-    #4\vspace{\parsep}%
-  }\\}
+  }&\parbox[t]{4cm}{%
+    #1 \\ \vspace{\parsep}%
+    {\footnotesize\addfontfeature{Color=gray} #3}%
+  }\\ \\}
 
 %%%%%%%%%%%%%%
 % Side block %
