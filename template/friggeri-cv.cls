@@ -60,17 +60,17 @@
 
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
+    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3.5cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
       \fontsize{40pt}{72pt}\color{header}%
-      {\thinfont #1}{\bodyfont #2}
+      {\thinfont #1} {\headingfont #2}
     };
     \node [anchor=north] at (name.south) {%
       \fontsize{14pt}{24pt}\color{header}%
       \thinfont #3%
     };
   \end{tikzpicture}
-  \vspace{2.5cm}
+  \vspace{2cm}
   \vspace{-2\parskip}
 }
 
@@ -110,7 +110,7 @@
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \setlength{\tabcolsep}{12pt}
 \newcommand{\entry}[4]{%
-  \parbox[t]{11cm}{%
+  \parbox[t]{12cm}{%
     \textbf{#2}%
     \hfill%
     \vspace{6pt}%
@@ -132,7 +132,7 @@
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}\vspace{6pt}
   }
-  \begin{textblock}{3.6}(1.5, 4.33)
+  \begin{textblock}{3.6}(0.8, 3.83)
   \begin{flushright}
   \obeycr
 }{%
@@ -146,5 +146,5 @@
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=0cm,nohead,nofoot]{geometry}
+\RequirePackage[left=5.5cm,top=2cm,right=1.5cm,bottom=0cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
